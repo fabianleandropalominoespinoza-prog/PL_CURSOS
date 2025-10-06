@@ -1,0 +1,43 @@
+
+* {
+   margin: 0;
+   box-sizing: border-box;
+   padding:0;}
+
+.contenedor-navbar {
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.contenedor-navbar-izquierda{
+    display: flex;
+}
+
+.contenedor-navbar-derecha{
+    display: flex;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding: 10px;
+}
+
+
+li a.boton {
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: #5BA0AF;
+}
+
+#logo {
+    color: white;
+    padding-right: 10px;
+    font-size: 20px;
+}
